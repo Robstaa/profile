@@ -9,56 +9,69 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <img src="images/birds.png" alt="" class="overlay-left">
-    <img src="images/best.png" alt="" class="overlay-right" id="best">
-    <img src="images/middlefinger.png" alt="" class="overlay-right" id="finger">
-    <div class="card center-elements">
-      <img src="images/profile_pic.png" alt="Robstaa" class="avatar circle-image">
-      <h1>Robin Zuschke</h1>
-      <h2>Emerging Web Developer</h2>
-      <p>I have done my Bachelor in Business at Maastricht University and some internships at startups in Berlin. After my exchange semester in Bogotá, I completed a Business Development internship at an e-commerce company in Hamburg, Germany. Now I am in Copenhagen, learning to code at the Fullstack Development Bootcamp "Le Wagon"!</p>
-    </div>
-    <div class="card center-elements">
-      <h3>Reach out</h3>
-      <a href="https://github.com/Robstaa" target="_blank" class="icon"><i class="fa fa-github small-icon" aria-hidden="true"></i> Github</a>
-      <a href="https://www.linkedin.com/in/robinzuschke" target="_blank" class="icon"><i class="fa fa-linkedin-square small-icon" aria-hidden="true"></i> LinkedIn</a>
-      <a href="mailto:robin.l.zuschke@gmail.com" class="icon"><i class="fa fa-envelope small-icon" aria-hidden="true"></i> robin.l.zuschke@gmail.com</a>
-    </div>
-    <div class="card">
-      <h2>Favorite Movies</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td><a href="https://fmovies.is/film/the-dark-knight.n348/5323vv" target="_blank"><img src="images/darkknight.jpg" alt="The Dark Knight" class="picture-rounded"></a></td>
-            <td>
-              <h3>Batman: The Dark Knight</h3>
-              <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><a href="https://gostream.is/film/interstellar-1655/watching.html?ep=1051758" target="_blank"><img src="images/interstellar.jpg" alt="Interstellar" class="picture-rounded"></a></td>
-            <td>
-              <h3>Interstellar</h3>
-              <p>Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><a href="http://fmovies.sc/watch/django-unchained-2013-i.2-online.html" target="_blank"><img src="images/django.jpg" alt="Django Unchained" class="picture-rounded"></a></td>
-            <td>
-              <h3>Django Unchained</h3>
-              <p>A German dentist buys the freedom of a slave and trains him with the intent to make him his deputy bounty hunter. Instead, he is led to the site of the slave's wife who belongs to a ruthless plantation owner.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="card center-elements">
-      <h3>About this page</h3>
-      <p>This page has been coded during the <strong><a href="https://www.lewagon.com/">FullStack program @LeWagon</a></strong> - Probably the best experience of my entire life!</p>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-share icon small-icon" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-heart icon small-icon" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-star icon small-icon" aria-hidden="true"></i></a>
+  <div id="sidebar">
+    <h4>Menu</h4>
+    <ul>
+      <li>
+        <i class="fa fa-film icon-red" aria-hidden="true"></i>
+      </li>
+      <li>
+        <i class="fa fa-address-card-o icon-red" aria-hidden="true"></i>
+      </li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <!-- <img src="images/birds.png" alt="" class="overlay-left"> -->
+      <img src="images/best.png" alt="" class="overlay-right" id="best">
+      <img src="images/middlefinger.png" alt="" class="overlay-right" id="finger">
+      <div class="card center-elements">
+        <img src="images/profile_pic.png" alt="Robstaa" class="avatar circle-image">
+        <h1>Robin Zuschke</h1>
+        <h2>Emerging Web Developer</h2>
+        <p>I have done my Bachelor in Business at Maastricht University and some internships at startups in Berlin. After my exchange semester in Bogotá, I completed a Business Development internship at an e-commerce company in Hamburg, Germany. Now I am in Copenhagen, learning to code at the Fullstack Development Bootcamp "Le Wagon"!</p>
+      </div>
+      <div class="card center-elements">
+        <h3>Reach out</h3>
+        <a href="https://github.com/Robstaa" target="_blank" class="icon"><i class="fa fa-github small-icon" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/robinzuschke" target="_blank" class="icon"><i class="fa fa-linkedin-square small-icon" aria-hidden="true"></i> LinkedIn</a>
+        <a href="mailto:robin.l.zuschke@gmail.com" class="icon"><i class="fa fa-envelope small-icon" aria-hidden="true"></i> robin.l.zuschke@gmail.com</a>
+      </div>
+      <div class="card">
+        <h2>Favorite Movies</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="https://fmovies.is/film/the-dark-knight.n348/5323vv" target="_blank"><img src="images/darkknight.jpg" alt="The Dark Knight" class="picture-rounded"></a></td>
+              <td>
+                <h3>Batman: The Dark Knight</h3>
+                <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="https://gostream.is/film/interstellar-1655/watching.html?ep=1051758" target="_blank"><img src="images/interstellar.jpg" alt="Interstellar" class="picture-rounded"></a></td>
+              <td>
+                <h3>Interstellar</h3>
+                <p>Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://fmovies.sc/watch/django-unchained-2013-i.2-online.html" target="_blank"><img src="images/django.jpg" alt="Django Unchained" class="picture-rounded"></a></td>
+              <td>
+                <h3>Django Unchained</h3>
+                <p>A German dentist buys the freedom of a slave and trains him with the intent to make him his deputy bounty hunter. Instead, he is led to the site of the slave's wife who belongs to a ruthless plantation owner.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card center-elements">
+        <h3>About this page</h3>
+        <p>This page has been coded during the <strong><a href="https://www.lewagon.com/">FullStack program @LeWagon</a></strong> - Probably the best experience of my entire life!</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-share icon small-icon" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-heart icon small-icon" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-star icon small-icon" aria-hidden="true"></i></a>
+      </div>
     </div>
   </div>
 </body>

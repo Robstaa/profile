@@ -1,11 +1,25 @@
 body {
-  background-color: #4ECDC4;
-  background: #076585;  /* fallback for old browsers */
+  background: #4ECDC4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #fff, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #fff, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-family: 'Raleway', sans-serif;
   color: #292F36;
+}
+
+#sidebar {
+  z-index: 3;
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #292F36;
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 150px;
 }
 
 h1,
@@ -81,7 +95,7 @@ td {
 .overlay-left {
   position: absolute;
   top: 30px;
-  left:0;
+  left:200px;
 }
 
 .overlay-right {
@@ -103,4 +117,15 @@ td {
 #finger {
   width: 140px;
   z-index: 1;
+}
+
+.icon-red {
+  color: #FF6B6B;
+  z-index: 4;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.icon-red:hover {
+  color: #4ECDC4;
 }
