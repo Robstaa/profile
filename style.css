@@ -119,9 +119,10 @@ td {
   opacity: 0;
 }
 
-#finger {
-  width: 140px;
+#swanson {
+  width: 80px;
   z-index: 1;
+  margin: 10px 30px 0 0;
 }
 
 .icon-red {
