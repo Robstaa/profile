@@ -1,5 +1,9 @@
 body {
   background-color: #4ECDC4;
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fff, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fff, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-family: 'Raleway', sans-serif;
   color: #292F36;
 }
@@ -34,6 +38,14 @@ img {
   width: 300px;
 }
 
+p {
+  line-height: 130%;
+}
+
+td {
+  vertical-align: middle;
+}
+
 .container {
   width: 700px;
   margin: 0 auto;
@@ -64,4 +76,31 @@ img {
 
 td {
   padding: 10px;
+}
+
+.overlay-left {
+  position: absolute;
+  top: 30px;
+  left:0;
+}
+
+.overlay-right {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#best {
+  width: 150px;
+  display: block;
+  z-index: 2;
+}
+
+#best:hover {
+  opacity: 0;
+}
+
+#finger {
+  width: 140px;
+  z-index: 1;
 }
