@@ -73,6 +73,11 @@ td {
   box-shadow: 2px 2px 10px grey;
 }
 
+.card:hover {
+  transform: translateY(-4px);
+  transition: all .2s ease;
+}
+
 .icon {
   display: inline-block;
   padding: 0 30px;
@@ -128,4 +133,8 @@ td {
 
 .icon-red:hover {
   color: #4ECDC4;
+}
+
+#sidebar ul {
+  padding-left: 0
 }

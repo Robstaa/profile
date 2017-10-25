@@ -9,14 +9,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="sidebar">
+  <div id="sidebar" class="center-elements">
     <h4>Menu</h4>
     <ul>
       <li>
-        <i class="fa fa-film icon-red" aria-hidden="true"></i>
+        <a href="#about"><i class="fa fa-address-card-o icon-red" aria-hidden="true"></i></a>
       </li>
       <li>
-        <i class="fa fa-address-card-o icon-red" aria-hidden="true"></i>
+        <a href="#contact"><i class="fa  fa-envelope-o icon-red" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="#movies"><i class="fa fa-film icon-red" aria-hidden="true"></i></a>
       </li>
     </ul>
   </div>
@@ -25,19 +28,19 @@
       <!-- <img src="images/birds.png" alt="" class="overlay-left"> -->
       <img src="images/best.png" alt="" class="overlay-right" id="best">
       <img src="images/middlefinger.png" alt="" class="overlay-right" id="finger">
-      <div class="card center-elements">
+      <div class="card center-elements" id="about">
         <img src="images/profile_pic.png" alt="Robstaa" class="avatar circle-image">
         <h1>Robin Zuschke</h1>
         <h2>Emerging Web Developer</h2>
         <p>I have done my Bachelor in Business at Maastricht University and some internships at startups in Berlin. After my exchange semester in Bogotá, I completed a Business Development internship at an e-commerce company in Hamburg, Germany. Now I am in Copenhagen, learning to code at the Fullstack Development Bootcamp "Le Wagon"!</p>
       </div>
-      <div class="card center-elements">
+      <div class="card center-elements" id="contact">
         <h3>Reach out</h3>
         <a href="https://github.com/Robstaa" target="_blank" class="icon"><i class="fa fa-github small-icon" aria-hidden="true"></i> Github</a>
         <a href="https://www.linkedin.com/in/robinzuschke" target="_blank" class="icon"><i class="fa fa-linkedin-square small-icon" aria-hidden="true"></i> LinkedIn</a>
         <a href="mailto:robin.l.zuschke@gmail.com" class="icon"><i class="fa fa-envelope small-icon" aria-hidden="true"></i> robin.l.zuschke@gmail.com</a>
       </div>
-      <div class="card">
+      <div class="card" id="movies">
         <h2>Favorite Movies</h2>
         <table>
           <tbody>
